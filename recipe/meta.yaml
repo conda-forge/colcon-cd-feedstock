@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - colcon-core >=0.4.1
     - colcon-package-information
